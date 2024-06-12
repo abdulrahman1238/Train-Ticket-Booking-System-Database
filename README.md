@@ -4,13 +4,13 @@ This repository contains the SQL schema for a Train Ticket Booking System, desig
 # Tables
 
 # Customer
-Customerid (int, primary key, auto-generated): Unique identifier for each customer.
-SSN (varchar(20), unique): Social Security Number of the customer.
-Firstname (varchar(20), not null): First name of the customer.
-Lastname (varchar(20), not null): Last name of the customer.
-Phone (varchar(30), unique): Phone number of the customer.
-Email (varchar(40), unique): Email address of the customer.
-Password (varchar(40), not null): Password for customer login.
+- Customerid (int, primary key, auto-generated): Unique identifier for each customer.
+- SSN (varchar(20), unique): Social Security Number of the customer.
+- Firstname (varchar(20), not null): First name of the customer.
+- Lastname (varchar(20), not null): Last name of the customer.
+- Phone (varchar(30), unique): Phone number of the customer.
+- Email (varchar(40), unique): Email address of the customer.
+- Password (varchar(40), not null): Password for customer login.
 
 # Admin
 
